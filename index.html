@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        body{
+            background-color: blanchedalmond;
+        }
+    .bar{
+display: flex;
+padding: 4px;
+background-color: rgb(99, 100, 99);
+color: white;
+padding-top: 20px;
+font-weight: bold;
+padding-left: 10%;
+    }
+    .bar ul{
+        display: flex;
+        padding-top: 20px;
+        gap: 5%;
+        text-align: right;
+        padding-left: 30%;
+    }
+    ul li a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        
+    
+    }
+    ul li{
+        list-style: none;
+    }
+    .main{
+    height: 70vh;
+    }
+    img{
+        width: 100%;
+        height: 70vh;
+    }
+    #frm{
+        background-color: white;
+        padding: 40px;
+        margin: auto;
+        width: 800px;
+        height: 400px;
+        text-align: center;
+        padding-top: 20px;  
+    }
+    #text{
+        padding: 4px;
+        width: 300px;
+    height: 30px;
+    border-radius: 4px;
+    font-weight: bold;
+    border: solid 1px #ccc;
+    font-size: 14px;
+    }
+    #button{
+        padding: 4px;
+        width: 100px;
+        height: 30px;
+        background-color: aqua;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        border-radius: 4px;
+        border: none;
+    }
+    .foot{
+        background-color: rgb(99, 100, 99); 
+        padding: 4px;
+        text-align: center;
+    }
+</style>
+<body>
+ <div class="bar">
+    <h1>ENEWARI TVT COLLEGE</h1>
+    <UL>
+        <li> <a href="index.html" >home</a></li>
+        <li> <a href="">Aboutus</a></li>
+        <li> <a href="">contact</a></li>
+        <li> <a href="signup.html" style="background-color: aqua; padding-left: 10px; padding-right: 10px;">signup</a></li>
+        <li> <a href="login.html" style="background-color: aqua;padding-left: 10px;padding-right: 10px;">login</a></li>
+    </UL>
+ </div> 
+ <div id="frm">
+ <h2 style="font-family: 'Times New Roman', Times, serif;color: blueviolet;">signup form</h2>
+ <form action="" method="post"> 
+    <input type="name" id="text" name="username" placeholder="user name" required><br><br>
+<input type="email" id="text" name="email" placeholder="email" required><br><br>
+<span>Gender:</span><br>
+<select name="gender" id="text">
+<option value="">mail</option>
+<option value="">femail</option>
+</select><br><br>
+<input type="password" id="text" name="password" placeholder="password" required><br><br>
+<input type="password" id="text" name="password" placeholder="retype pass" required><br><br>
+<input type="submit" id="button" name="register" value="signup">
+</form>
+
+
+ </div>  
+ <div class="foot">
+ <h2>ENEWARI TVET &COPY;2026 All Right Is Reserved</h2>
+ </div>
+</body>
+</html>
